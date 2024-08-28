@@ -1,4 +1,3 @@
-// src/pages/HomePage.jsx
 import  { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { getProductsByCategory } from '../features/products/productsSlice';

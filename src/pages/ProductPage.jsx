@@ -2,7 +2,7 @@
 import { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { useParams } from 'react-router-dom';
-import { getProduct } from '../features/products/productsSlice.js'; // Verify this path
+import { getProduct } from '../features/products/productsSlice.js'; 
 
 const ProductPage = () => {
   const { productId } = useParams();
